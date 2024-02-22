@@ -9,6 +9,10 @@
 1. 	
 ES7+ React/Redux/React-Native snippets
 
+2.
+Tailwind CSS IntelliSense
+
+
 # @tailwindcss/forms
 
 A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
