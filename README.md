@@ -12,6 +12,24 @@ ES7+ React/Redux/React-Native snippets
 2.
 Tailwind CSS IntelliSense
 
+# Preferences in VScode
+
+1. Enable emmet in js and react
+
+settings.json
+
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false
+
+    "emmet.includeLanguages": {
+        "javascript": "html",
+        "javascriptreact": "html"
+    }
+}
+
 
 # @tailwindcss/forms
 
