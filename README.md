@@ -12,6 +12,9 @@ ES7+ React/Redux/React-Native snippets
 2.
 Tailwind CSS IntelliSense
 
+3.
+Tabnine: AI Autocomplete & Chat for Javascript, Python, Typescript, PHP, Go, Java & more
+
 # Preferences in VScode
 
 1. Enable emmet in js and react
