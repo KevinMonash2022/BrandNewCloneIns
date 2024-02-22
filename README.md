@@ -22,7 +22,7 @@ settings.json
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "editor.formatOnSave": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
 
     "emmet.includeLanguages": {
         "javascript": "html",
