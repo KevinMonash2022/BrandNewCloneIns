@@ -6,16 +6,16 @@ export default function Posts() {
         {
             id: "1",
             username: "codewith Kaixin Zhang",
-            userImg: "https://storage.googleapis.com/sticker-prod/J0kvw34krCDQNNHoZjEt/cover-1.webp",
-            img: "https://images7.alphacoders.com/133/thumb-440-1339435.webp",
+            userImg: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5847f24a-889d-4f1d-971c-da2bafcfc71c/dfwrftm-18a738cf-4099-43e3-8914-7a49de0d2e3c.png/v1/fill/w_880,h_900/anya_forger_render_by_ben10andtheppgdude_dfwrftm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvNTg0N2YyNGEtODg5ZC00ZjFkLTk3MWMtZGEyYmFmY2ZjNzFjXC9kZndyZnRtLTE4YTczOGNmLTQwOTktNDNlMy04OTE0LTdhNDlkZTBkMmUzYy5wbmciLCJ3aWR0aCI6Ijw9ODgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZWjovZ-_L9QuWjHlttg3a1DNw4LGZgWgAQL6x9004Ts",
+            img: "https://images6.alphacoders.com/133/1333611.jpeg",
             caption: "Waku waku!"
         },
 
         {
             id: "2",
             username: "codewith Kaixin Zhang aka Kevin",
-            userImg: "https://storage.googleapis.com/sticker-prod/J0kvw34krCDQNNHoZjEt/cover-1.webp",
-            img: "https://images6.alphacoders.com/129/thumb-440-1290527.webp",
+            userImg: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5847f24a-889d-4f1d-971c-da2bafcfc71c/dfwrftm-18a738cf-4099-43e3-8914-7a49de0d2e3c.png/v1/fill/w_880,h_900/anya_forger_render_by_ben10andtheppgdude_dfwrftm-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvNTg0N2YyNGEtODg5ZC00ZjFkLTk3MWMtZGEyYmFmY2ZjNzFjXC9kZndyZnRtLTE4YTczOGNmLTQwOTktNDNlMy04OTE0LTdhNDlkZTBkMmUzYy5wbmciLCJ3aWR0aCI6Ijw9ODgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZWjovZ-_L9QuWjHlttg3a1DNw4LGZgWgAQL6x9004Ts",
+            img: "https://images6.alphacoders.com/129/1290527.png",
             caption: "?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿"
         }
     ]
