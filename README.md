@@ -131,3 +131,6 @@ An alternative to faker.js with both esm and cjs syntax
 # Fake user image
 https://pravatar.cc/
 
+# tailwind-scrollbar
+https://www.npmjs.com/package/tailwind-scrollbar?activeTab=readme
+npm i tailwind-scrollbar
