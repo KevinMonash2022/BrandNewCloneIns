@@ -114,3 +114,20 @@ Icons use an upper camel case naming convention and are always suffixed with the
 [Browse the full list of icon names on UNPKG &rarr;](https://unpkg.com/browse/@heroicons/react/24/outline/)
 
 
+# minifaker
+
+Generate fake data.  
+An alternative to faker.js with both esm and cjs syntax
+<https://github.com/Marak/faker.js>
+
+## NPM
+
+`npm i minifaker`
+
+## Supported locales
+
+`en` | `fr`, `fr-CA` | `es`
+
+# Fake user image
+https://pravatar.cc/
+
