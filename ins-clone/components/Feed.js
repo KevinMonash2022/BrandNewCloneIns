@@ -1,19 +1,21 @@
 import React from 'react';
 import Stories from './Stories';
+import Posts from './Posts';
 
 export default function Feed() {
-  return <main>
-    <section>
-        {/* Stories */}
-        <Stories/>
-        {/* Posts */}
-    </section>
+    return <main>
+        <section>
+            {/* Stories */}
+            <Stories />
+            {/* Posts */}
+            <Posts />
+        </section>
 
-    <section>
-        {/* Mini Profile */}
+        <section>
+            {/* Mini Profile */}
 
-        {/* Suggestion */}
-    </section>
+            {/* Suggestion */}
+        </section>
 
-  </main>
+    </main>
 }
