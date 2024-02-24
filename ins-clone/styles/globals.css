@@ -7,3 +7,9 @@
         @apply h-7 hover:scale-125 transition-transform duration-200 ease-out cursor-pointer
     }
 }
+
+@layer components {
+    .userImage {
+        @apply rounded-full object-cover border p-1 border-red-300 mr-3 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out
+    }
+}
