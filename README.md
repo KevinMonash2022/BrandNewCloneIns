@@ -134,3 +134,70 @@ https://pravatar.cc/
 # tailwind-scrollbar
 https://www.npmjs.com/package/tailwind-scrollbar?activeTab=readme
 npm i tailwind-scrollbar
+
+# NextAuth
+https://next-auth.js.org/getting-started/example
+NextAuth.js
+## Install NextAuth
+1. npm install next-auth
+## Add API route
+To add NextAuth.js to a project create a file called [...nextauth].js in pages/api/auth. This contains the dynamic route handler for NextAuth.js which will also contain all of your global NextAuth.js configurations.
+
+If you're using Next.js 13.2 or above with the new App Router (app/), you can initialize the configuration using the new Route Handlers by following our guide.
+
+
+import NextAuth from "next-auth"
+import GoogelProvider from "next-auth/providers/google"
+
+export const authOptions = {
+  // Configure one or more authentication providers
+  providers: [
+    GoogleProvider({
+      clientId: process.env.GOOGLE_CLIENT_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    }),
+    // ...add more providers here
+  ],
+}
+
+export default NextAuth(authOptions)
+
+
+
+All requests to /api/auth/* (signIn, callback, signOut, etc.) will automatically be handled by NextAuth.js.
+
+# Firebase google
+https://firebase.google.com/?gad_source=1&gclid=Cj0KCQiAxOauBhCaARIsAEbUSQS1CVwGDU2mAYpmdAojjSxHS4UWmpAAoBGiC5wFu80KsOzLE2B2xKUaAhe2EALw_wcB&gclsrc=aw.ds
+
+## Add Firebase SDK
+
+Use npm
+
+Use a <script> tag
+If you're already using NPM and a module bundler such as webpack or Rollup, you can run the following command to install the latest SDK (Learn more):
+
+npm install firebase
+Then, initialise Firebase and begin using the SDKs for the products that you'd like to use.
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDe-X3-YAUoaJ1Es6aujAgEDXMFyvsKHDQ",
+  authDomain: "ins-clone-kaixin-v1.firebaseapp.com",
+  projectId: "ins-clone-kaixin-v1",
+  storageBucket: "ins-clone-kaixin-v1.appspot.com",
+  messagingSenderId: "809511987946",
+  appId: "1:809511987946:web:45db0e57110e3ccbf00593"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+Note: This option uses the modular JavaScript SDK, which provides a reduced SDK size.
+
+
+# Google Cloud
+APIs and services
