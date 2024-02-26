@@ -47,14 +47,8 @@ export default function Header() {
                     {session ? (
                         <>
                             <PlusCircleIcon className='h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out' />
-                            <Image
-                                onClick={signOut}
-                                src={session.user.image}
-                                alt={session.user.name}
-                                width={40}
-                                height={40}
-                                className='userImage'
-                            />
+                            
+                            <img className='h-12 userImage' src={session?.user.image} alt={session.user.name}/>
                         </>
                     ) : (
                         <button onClick={signIn}>Sign in</button>
