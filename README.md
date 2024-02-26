@@ -201,3 +201,29 @@ Note: This option uses the modular JavaScript SDK, which provides a reduced SDK 
 
 # Google Cloud
 APIs and services
+
+## OAuth consent screen
+external
+
+app name:
+kaixin-clone
+user support email:
+****
+Authorised domains:
+ins-clone-kaixin-v1.firebaseapp.com
+developer contract information:
+****
+
+## Credentials
+Name:
+ins-clone-v1
+
+Authorised JavaScript origins:
+http://localhost
+https://ins-clone-kaixin-v1.firebaseapp.com
+http://localhost:5000
+http://localhost:3000
+
+Authorised redirect URIs
+http://localhost:3000/api/auth/callback/google
+
