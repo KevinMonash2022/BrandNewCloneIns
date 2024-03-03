@@ -6,7 +6,7 @@ export default function Post({ img, userImg, caption, username, id }) {
         <div className='bg-white my-7 border rounded-md'>
             {/* Post header */}
             <div className='flex items-center p-5'>
-                <img className='h-12 rounded-full object-cover border p-1 border-red-300 mr-3' src={userImg} alt={username} />
+                <img className='h-12 userImage' src={userImg} alt={username} />
                 <p className='font-bold flex-1'>{username}</p>
                 <EllipsisHorizontalIcon className='h-5' />
             </div>
