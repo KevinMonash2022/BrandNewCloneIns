@@ -33,6 +33,7 @@ export default function UploadModal() {
         await updateDoc(doc(db, "posts", docRef.id), {
           image: downloadURL,
         });
+        
 
       }
     );
